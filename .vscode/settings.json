@@ -1,11 +1,12 @@
 {
-    "vitest.include": ["**/*.test.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
-    "vitest.exclude": [
-        "**/*.spec.{js,mjs,cjs,ts,mts,cts,jsx,tsx}",
-        "**/node_modules/**",
-        "**/dist/**",
-        "**/cypress/**",
-        "**/.{idea,git,cache,output,temp}/**"
-    ],
-    "vitest.commandLine": "pnpm test --"
+  "vitest.include": ["**/*.test.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
+  "vitest.exclude": [
+    "**/*.spec.{js,mjs,cjs,ts,mts,cts,jsx,tsx}",
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/cypress/**",
+    "**/.{idea,git,cache,output,temp}/**"
+  ],
+  "vitest.commandLine": "pnpm test --",
+  "cSpell.words": ["autodocs"]
 }

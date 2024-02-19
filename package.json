@@ -10,6 +10,10 @@
     ".": {
       "import": "./dist/react-gis-ol.js",
       "require": "./dist/react-gis-ol.umd.js"
+    },
+    "./dist/*.css": {
+      "import": "./dist/*.css",
+      "require": "./dist/*.css"
     }
   },
   "files": [

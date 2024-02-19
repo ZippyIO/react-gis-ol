@@ -1,8 +1,16 @@
 {
   "name": "react-gis-ol",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "main": "./dist/react-gis-ol.umd.js",
+  "module": "./dist/react-gis-ol.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/react-gis-ol.es.js",
+      "require": "./dist/react-gis-ol.umd.js"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

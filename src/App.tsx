@@ -1,5 +1,5 @@
 import Map from './components/Map';
-import { MapLayerOSM } from './lib/openlayers/map-layers';
+import { MapLayerOSM } from './lib/map-layers';
 
 const App = () => {
   return (

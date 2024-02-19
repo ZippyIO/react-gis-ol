@@ -5,11 +5,11 @@ import '../styles/map.css';
 
 import { useMap, type UseMapProps } from '../hooks/useMap';
 
-type Props = UseMapProps & {
+export type MapProps = UseMapProps & {
   wrapperDivProps?: React.ComponentProps<'div'>;
 };
 
-const Map = ({ wrapperDivProps, ...props }: Props) => {
+const Map = ({ wrapperDivProps, ...props }: MapProps) => {
   const { mapRef } = useMap({ ...props });
 
   return <div ref={mapRef} className="gis-ol-map" {...wrapperDivProps}></div>;

@@ -1,5 +1,5 @@
-import { type MapLayer } from '../../types/openlayers';
-import { OSM, TileLayer } from './';
+import { type MapLayer } from '../types/openlayers';
+import { OSM, TileLayer } from './openlayers';
 
 export const MapLayerOSM: MapLayer = {
   id: 'openstreetmap',

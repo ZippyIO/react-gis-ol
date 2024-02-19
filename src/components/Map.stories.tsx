@@ -1,6 +1,6 @@
 import { type Meta, type StoryObj } from '@storybook/react';
 
-import { MapLayerOSM } from '../lib/openlayers/map-layers';
+import { MapLayerOSM } from '../lib/map-layers';
 import Map from './Map';
 
 const meta = {

@@ -15,10 +15,6 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["./src/*"]
-    }
   },
   "include": ["**/*.ts", "**/*.tsx", "**/*.js", ".storybook/**/*.ts", ".storybook/**/*.tsx"],
   "exclude": ["node_modules"],

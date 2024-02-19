@@ -1,23 +1,25 @@
 /// <reference types="vitest" />
-import { resolve } from 'path';
+
 import react from '@vitejs/plugin-react';
 
+import { resolve } from 'path';
 import { defineConfig } from 'vite';
+import dts from 'vite-plugin-dts';
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    dts({
+      insertTypesEntry: true,
+    }),
+  ],
   test: {
     globals: true,
     environment: 'jsdom',
   },
-  resolve: {
-    alias: {
-      '~': '/src',
-    },
-  },
   build: {
     lib: {
-      entry: resolve(__dirname, 'src/index.tsx'),
+      entry: resolve(__dirname, 'src/index.ts'),
       name: 'ReactGISOL',
       fileName: 'react-gis-ol',
     },

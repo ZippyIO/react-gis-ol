@@ -8,5 +8,5 @@
     "**/.{idea,git,cache,output,temp}/**"
   ],
   "vitest.commandLine": "pnpm test --",
-  "cSpell.words": ["autodocs"]
+  "cSpell.words": ["autodocs", "openlayers"]
 }

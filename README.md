@@ -1,6 +1,3 @@
-<a name="readme-top"></a>
-
-<br />
 <div align="center">
 
   <h3 align="center">React GIS-OL</h3>
@@ -15,3 +12,41 @@
     <a href="https://github.com/ZippyIO/react-gis-ol/issues">Request Feature</a>
   </p>
 </div>
+
+---
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+### Installation
+
+<!-- USAGE EXAMPLES -->
+
+## Usage
+
+<!-- ROADMAP -->
+
+## Roadmap
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+<!-- LICENSE -->
+
+## License
+
+<!-- CONTACT -->
+
+## Contact
+
+Contact me via my [website](https://nickdutto.dev/contact)
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments

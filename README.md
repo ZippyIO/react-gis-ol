@@ -5,8 +5,11 @@
   <p align="center">
     React GIS-OL provides a set of React components for building GIS applications with OpenLayers 
     <br />
-    <a href="https://react-gis-ol-docs.vercel.app/"><strong>Explore the docs »</strong></a>
     <br />
+    <a href="https://www.npmjs.com/package/react-gis-ol"><img src="https://img.shields.io/npm/v/react-gis-ol" alt="npm version" height="18"></a>
+    <br />
+    <a href="https://react-gis-ol.vercel.app/"><strong>Explore the docs »</strong></a>
+    <br/>
     <a href="https://github.com/ZippyIO/react-gis-ol/issues">Report Bug</a>
     ·
     <a href="https://github.com/ZippyIO/react-gis-ol/issues">Request Feature</a>

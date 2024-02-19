@@ -1,0 +1,44 @@
+# Getting Started
+
+## Requirements
+
+- `react >= 18.0.0`
+- `react-dom >= 18.0.0`
+- `ol >= 8.2.0`
+
+## Installation
+
+```sh npm2yarn copy
+npm i react-gis-ol ol
+```
+
+You need to import the CSS file from `react-gis-ol` to get the correct default styling.
+
+```tsx filename="app.tsx" copy
+import "react-gis-ol/dist/style.css";
+```
+
+## Example
+
+Basic `Map` with the preset OpenStreetMap `MapLayer`:
+
+```tsx filename="app.tsx" copy
+import "react-gis-ol/dist/style.css";
+
+import { Map, MapLayerOSM } from "react-gis-ol";
+
+const App = () => {
+  return (
+    <Map
+      layer={MapLayerOSM}
+      view={{
+        center: [149.069, -35.5],
+        zoom: 10,
+        minZoom: 0,
+        maxZoom: 28,
+      }}
+      wrapperDivProps={{ style: { width: "600px", height: "600px" } }}
+    />
+  );
+};
+```

@@ -14,7 +14,7 @@ const config = {
   },
   root: true,
   env: { browser: true, es2020: true },
-  ignorePatterns: ['dist', '.eslintrc.cjs', '!.storybook'],
+  ignorePatterns: ['dist', '.eslintrc.cjs', '!.storybook', 'docs'],
   rules: {
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
     'end-of-line': 'off',

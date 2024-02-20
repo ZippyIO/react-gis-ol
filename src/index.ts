@@ -4,6 +4,9 @@ export type * from './components/Map';
 export * from './context/MapContext';
 export type * from './context/MapContext';
 
+export * from './context/CurrentMapContext';
+export type * from './context/CurrentMapContext';
+
 export * from './hooks/useMap';
 export type * from './hooks/useMap';
 
